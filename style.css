@@ -1,0 +1,65 @@
+/* ===== Reset ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Base ===== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Header ===== */
+.site-header {
+  background-color: #263238;
+  color: white;
+  padding: 24px;
+  text-align: center;
+}
+
+/* ===== Navigation ===== */
+.site-nav {
+  background-color: #37474f;
+}
+
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.site-nav li {
+  padding: 12px 16px;
+  color: white;
+}
+
+/* ===== Layout ===== */
+.container {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+}
+
+.section h2 {
+  margin-bottom: 8px;
+}
+
+/* ===== Footer ===== */
+.site-footer {
+  background-color: #263238;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  margin-top: 32px;
+}
